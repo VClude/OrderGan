@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.wawa.ordergan">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/iclogo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/iclogo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".HomeActivity" />
+        <activity
+            android:name=".OrderActivity"
+            android:label="Main Courses" />
+        <activity
+            android:name=".BeveragesActivity"
+            android:label="Beverages" />
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ListOrderActivity" />
+        <activity android:name=".SplashScreen" />
+        <activity android:name=".Success" />
+        <activity android:name=".Failed"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/maincourse"
+            android:icon="@drawable/eat"
+            android:title="Main Courses" />
+        <item
+            android:id="@+id/beverage"
+            android:icon="@drawable/beverage"
+            android:title="Beverages" />
+
+        <item
+            android:id="@+id/cancel"
+            android:icon="@drawable/cancel"
+            android:title="Cancel Order" />
+    </group>
+</menu>
