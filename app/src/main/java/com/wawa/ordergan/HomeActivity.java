@@ -18,9 +18,9 @@ public class HomeActivity extends AppCompatActivity {
 
 
         ViewPager viewPager = findViewById(R.id.viewPager);
-        ImageAdapter adapter = new ImageAdapter(this);
+    ImageAdapter adapter = new ImageAdapter(this);
         viewPager.setAdapter(adapter);
-    }
+}
 
 
     public void order(View view) {

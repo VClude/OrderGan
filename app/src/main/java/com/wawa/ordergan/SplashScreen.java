@@ -17,7 +17,7 @@ public class SplashScreen extends AppCompatActivity {
         this.requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_splash_screen);
 
-        tvSplash = (TextView) findViewById(R.id.moto);
+        tvSplash = (TextView) findViewById(R.id.mcoto);
 
         final Handler handler = new Handler();
         handler.postDelayed(new Runnable() {
